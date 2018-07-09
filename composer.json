@@ -1,0 +1,26 @@
+
+{
+    "name": "alex/better-cms-login",
+    "description": "Custom security templates to mirror CMS",
+    "type": "silverstripe-vendormodule",
+    "keywords": ["silverstripe", "security", "templates", "theme"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alexander Skrabl",
+            "email": "alexander@skrabl.de"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4.1",
+        "silverstripe/cms": "^4.1",
+        "silverstripe/admin": "^1.0",
+        "silverstripe/asset-admin": "^1.0"
+    },
+    "extra": {
+        "installer-name": "better-cms-login",
+        "expose": [
+            "css"
+        ]
+    }
+}
