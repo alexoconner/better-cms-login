@@ -4,7 +4,7 @@
     "description": "Custom security templates to mirror CMS",
     "type": "silverstripe-vendormodule",
     "keywords": ["silverstripe", "security", "templates", "theme"],
-    "license": "BSD-3-Clause",
+    "license": "ISC",
     "authors": [
         {
             "name": "Alexander Skrabl",
