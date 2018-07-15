@@ -1,0 +1,19 @@
+{
+  "name": "better-cms-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "clean-css": "^4.1.11",
+    "less": "^3.7.1",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "watch:styles": "watch 'npm run build:styles' ./less",
+    "build:styles": "lessc ./less/login.less ./css/login.css",
+    "make:styles": "lessc ./less/login.less | cleancss > ./css/login.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

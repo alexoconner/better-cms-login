@@ -12,5 +12,5 @@
 <body>
 
     <div class="login-form">
-        <div class="login-form__content">
+        <h1>CMS Login</h1>
 
